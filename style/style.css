@@ -1,0 +1,97 @@
+form a {
+    margin-left:5px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	color: #747704
+	font-weight: 300;
+}
+.li-button { 
+	float:right; 
+	_position:relative; 
+}
+.blueBar{
+	background: linear-gradient(to bottom right, #F0F2FF , #FCF5F5);
+	height: 37px;
+
+}
+.height-adjust{
+	height:150px;
+}
+.bt-set{
+	width:200px;
+	height:40px;
+}
+.height-adjust-small{
+	height:40px;
+}
+.block-adjust{
+	height: 70px;
+}
+.padding-adjust{
+	padding-top: 8px;
+}
+.right-adjust{
+	margin-right: 10px;
+}
+.bottom-adjust{
+	margin-bottom: : 100px;
+}
+.thunkableHeader { 
+	height: 50px;
+	font-size:15px;
+}
+.thunkableFooter {
+	font-size:13px;
+}
+.text-green {
+	color: #6ED4C0;
+}
+.text-blue {
+	color: #74B6F7;
+}
+.projectStarter {
+	height: 600px;
+	background: linear-gradient(to bottom right, #F0F2FF , #FCF5F5);
+	border-style: thin;
+    border-color: #C0C0C0;
+
+}
+.img-logo {
+	padding-top: 3px;
+	padding-left: 2px;
+}
+.img-text-small {
+	margin-top-top: 10px;
+}
+.text-start {
+	color:#5AE086;
+}
+
+
+#canvaslist{ 
+    list-style:none; 
+    overflow: auto; 
+    margin:0; 
+    padding:0; 
+    zoom:1; 
+    white-space: nowrap; 
+    width: 100%; 
+} 
+#canvaslist li{ 
+    line-height:20px; 
+    margin:5px 4px; 
+    text-align:center; 
+    display: inline; 
+} 
+button {
+    border-radius: 4px;
+    background-color:#6ED4C0;
+    color:#FFFFFF;
+    border-color:transparent;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    vertical-align: middle;
+}
