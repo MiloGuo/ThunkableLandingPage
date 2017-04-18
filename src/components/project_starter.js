@@ -4,8 +4,8 @@ import WithProject from './with_projects';
 
 
 
-var projects = [];
-//var projects = ["BetterMe","SayYouSayMe","VacationWise","SayYouSayMe","VacationWise","SayYouSayMe","VacationWise","SayYouSayMe","VacationWise","SayYouSayMe","VacationWise"];
+//var projects = [];
+var projects = ["BetterMe","SayYouSayMe","VacationWise","SayYouSayMe","VacationWise","SayYouSayMe","VacationWise","SayYouSayMe","VacationWise","SayYouSayMe","VacationWise"];
 
 export default class ProjectStarter extends Component {
   render() {

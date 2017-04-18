@@ -1,19 +1,25 @@
-form a {
-    margin-left:5px;
-}
 body{
 	font-family: 'Lato', sans-serif;
 	color: #747704
 	font-weight: 300;
 }
+button {
+    border-radius: 4px;
+    background-color:#6ED4C0;
+    color:#FFFFFF;
+    border-color:transparent;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    vertical-align: middle;
+}
 .li-button { 
 	float:right; 
 	_position:relative; 
 }
-.blueBar{
-	background: linear-gradient(to bottom right, #F0F2FF , #FCF5F5);
-	height: 37px;
-
+.text-vertical-middle{
+	margin-top: 5px;
 }
 .height-adjust{
 	height:150px;
@@ -37,29 +43,16 @@ body{
 .bottom-adjust{
 	margin-bottom: : 100px;
 }
-.thunkableHeader { 
-	height: 50px;
-	font-size:15px;
-}
-.thunkableFooter {
-	font-size:13px;
-}
 .text-green {
 	color: #6ED4C0;
 }
 .text-blue {
 	color: #74B6F7;
 }
-.projectStarter {
-	height: 600px;
-	background: linear-gradient(to bottom right, #F0F2FF , #FCF5F5);
-	border-style: thin;
-    border-color: #C0C0C0;
 
-}
 .img-logo {
 	padding-top: 3px;
-	padding-left: 2px;
+	padding-left: 3px;
 }
 .img-text-small {
 	margin-top-top: 10px;
@@ -68,7 +61,12 @@ body{
 	color:#5AE086;
 }
 
-
+.vertical {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  box-sizing: border-box;
+}
 #canvaslist{ 
     list-style:none; 
     overflow: auto; 
@@ -84,14 +82,22 @@ body{
     text-align:center; 
     display: inline; 
 } 
-button {
-    border-radius: 4px;
-    background-color:#6ED4C0;
-    color:#FFFFFF;
-    border-color:transparent;
+.thunkableHeader { 
+	height: 50px;
+	font-size:15px;
 }
-img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    vertical-align: middle;
+.thunkableFooter {
+	font-size:13px;
+}
+.projectStarter {
+	height: 700px;
+	background: linear-gradient(to bottom right, #F0F2FF , #FCF5F5);
+	border-style: thin;
+    border-color: #C0C0C0;
+
+}
+.blueBar{
+	background: linear-gradient(to bottom right, #F0F2FF , #FCF5F5);
+	height: 37px;
+
 }

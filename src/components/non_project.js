@@ -15,7 +15,7 @@ export default class NonProject extends Component {
     				</div>
                     <div className='height-adjust-small'></div>
     				<div> 
-                        <button className="bt-set" type="button">Let us start! </button>
+                        <button className="bt-set" type="button">Get started </button>
     				</div>	  
     			</div> 
 	    	</div>

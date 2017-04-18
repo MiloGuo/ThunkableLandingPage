@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 
 
-//var projects = [];
 var projects = ["BetterMe","SayYouSayMe","Vacation","SayYou","VacationWise","SayMe","Wise"];
 var peopleLIS = projects.map(function(project){
-    return (<li className="list-group-item" key={project}>
-             <p> 
+    return (<li className="list-group-item container" key={project}>
+        <div className="vertical">
+             <p className="text-vertical-middle"> 
                 {project} 
                 <span className="li-button">
                     <a href="#" className=" text-right btn btn-primary right-adjust" >Open</a>
                     <button type="button" className="text-right btn btn-danger" ><span className="glyphicon glyphicon-trash" aria-hidden="true">Delete</span></button>
                 </span>
             </p>
+        </div>
             </li>);
 });
 
