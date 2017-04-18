@@ -11,7 +11,7 @@ export default class NonProject extends Component {
     			<div className="col-4">
     				<div className='height-adjust'></div>
     				<div>
-    					<a href="#"><img className="img-responsive" src="../../image/749944-200.png" alt="create a project" height="200" width="200" /></a>
+    					<a href="#"><img className="img-responsive" src="../../image/creat-project.png" alt="create a project" height="200" width="200" /></a>
     				</div>
                     <div className='height-adjust-small'></div>
     				<div> 
